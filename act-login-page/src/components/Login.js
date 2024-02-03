@@ -20,30 +20,30 @@ function LoginForm() {
         width: "100vw",
       }}
     >
-      <div className="container">
-        <div className="vh-100 d-flex justify-content-center align-items-center">
-          <span className="col-md-5 p-5 shadow-sm border border-primary bg-white">
+      <div class="container">
+        <div class="vh-100 d-flex justify-content-center align-items-center">
+          <span class="col-md-5 p-5 shadow-sm border border-primary bg-white">
             <form onSubmit={handleSubmit}>
-              <div className="mb-3">
-                <label className="form-label">Username:</label>
+              <div class="mb-3">
+                <label class="form-label">Username:</label>
                 <input
                   type="text"
-                  className="form-control"
+                  class="form-control"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                 />
               </div>
-              <div className="mb-3">
-                <label className="form-label">Password:</label>
+              <div class="mb-3">
+                <label class="form-label">Password:</label>
                 <input
                   type="password"
-                  className="form-control"
+                  class="form-control"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
               <div class="d-grid gap-2">
-                <button type="submit" className="btn btn-primary">
+                <button type="submit" class="btn btn-primary">
                   Submit
                 </button>
               </div>
